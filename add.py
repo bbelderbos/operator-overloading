@@ -19,4 +19,3 @@ v2 = Vector(3, 4)
 result = v1 + v2  # Calls the __add__ method for vector addition
 
 print(result)  # Output: Vector(4, 6)
-

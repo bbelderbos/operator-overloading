@@ -11,7 +11,8 @@ class Path:
         new_path = os.path.join(self.path, other.path)
         return self.__class__(new_path)
 
-a = Path("foo")
+
+a = Path("/tmp")
 b = Path("bar")
 c = a / b
 print(c.path)

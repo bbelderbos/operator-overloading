@@ -15,7 +15,7 @@ class CustomList(list):
         return CustomList(result)
 
 # Example usage:
-list1 = CustomList([True, False, True])
+list1 = CustomList([True, False, False])
 list2 = CustomList([False, True, False])
 
 result = list1 | list2  # Calls the __or__ method for element-wise OR
